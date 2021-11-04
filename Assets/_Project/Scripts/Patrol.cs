@@ -22,6 +22,7 @@ public class Patrol : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[spot].position, speed * Time.deltaTime);
+        
         if (Vector2.Distance(transform.position, moveSpots[spot].position) < 0.2f)
         {
             if (waitTime <= 0)

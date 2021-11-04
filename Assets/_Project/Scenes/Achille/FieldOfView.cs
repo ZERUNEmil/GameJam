@@ -10,6 +10,7 @@ public class FieldOfView : MonoBehaviour
     public float viewDist;
     public float viewAngle;
     private Vector3 origin;
+    private float startingAnlge;
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +23,11 @@ public class FieldOfView : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         float fov = viewAngle;
-        Vector3 origin = Vector3.zero;
         int rayCount = numberOfRays;
-        float angle = 0f;
+        float angle = startingAnlge;
         float angleInc = fov / rayCount;
         float viewDistance = viewDist;
 
@@ -42,6 +42,7 @@ public class FieldOfView : MonoBehaviour
         {
             Vector3 vertex;
             RaycastHit2D raycastHit2D = Physics2D.Raycast(origin, vectorToAngle(angle), viewDistance, _layerMask);
+            Debug.DrawRay(origin,vectorToAngle(angle));
             if (raycastHit2D.collider == null)
             {
                 vertex = origin + vectorToAngle(angle) * viewDistance;
@@ -81,7 +82,7 @@ public class FieldOfView : MonoBehaviour
 
     public void setViewDirection(Vector3 direction)
     {
-        float startingAngle = vectorToFloatAngle(direction) - viewAngle / 2f;
+        startingAnlge = vectorToFloatAngle(direction) - viewAngle / 2f;
     }
     private Vector3 vectorToAngle(float angle)
     {
