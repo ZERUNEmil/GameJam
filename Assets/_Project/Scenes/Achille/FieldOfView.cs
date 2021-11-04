@@ -11,6 +11,7 @@ public class FieldOfView : MonoBehaviour
     public float viewAngle;
     private Vector3 origin;
     private float startingAnlge;
+    public int playerLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -49,8 +50,10 @@ public class FieldOfView : MonoBehaviour
             }
             else
             {
-                
-                    Debug.Log(raycastHit2D.collider.name);
+                    if(raycastHit2D.collider.gameObject.layer.Equals(playerLayer))
+                    {
+                        Debug.Log("FOUND YOU");
+                    }
 
                 
                 vertex = raycastHit2D.point;
