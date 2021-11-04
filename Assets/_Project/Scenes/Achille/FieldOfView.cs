@@ -11,7 +11,7 @@ public class FieldOfView : MonoBehaviour
     public float viewAngle;
     private Vector3 origin;
     private float startingAnlge;
-    public int playerLayer;
+    [SerializeField] private int playerLayer;
     private Transform target;
 
     // Start is called before the first frame update
@@ -19,6 +19,10 @@ public class FieldOfView : MonoBehaviour
     {
         
         mesh = new Mesh();
+        var bounds = new Bounds(Vector3.negativeInfinity, Vector3.positiveInfinity);
+        mesh.bounds = bounds;
+
+
         GetComponent<MeshFilter>().mesh = mesh;
         origin = Vector3.zero;
 
@@ -53,11 +57,13 @@ public class FieldOfView : MonoBehaviour
             {
                     if(raycastHit2D.collider.gameObject.layer.Equals(playerLayer))
                     {
+                      
                        target = raycastHit2D.collider.transform;
+                       
                     }
 
-                
-                vertex = raycastHit2D.point;
+
+                    vertex = raycastHit2D.point;
             }
 
             vertices[vertexIndex] = vertex;
