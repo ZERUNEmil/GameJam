@@ -9,7 +9,8 @@ public class Patrol : MonoBehaviour
     public float startWaitTile;
     private float waitTime;
     private int spot;
-    private
+
+    [SerializeField] private FieldOfView _fieldOfView;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +36,8 @@ public class Patrol : MonoBehaviour
             }
 
         }
+        _fieldOfView.setOrigin(transform.position);
+        _fieldOfView.setViewDirection(transform.forward);
     }
 
     private int nextSpot()
