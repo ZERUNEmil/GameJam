@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 188203265}
   - component: {fileID: 188203267}
   - component: {fileID: 188203266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3308,7 +3308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &217174531
 AudioListener:
   m_ObjectHideFlags: 0
@@ -3372,7 +3372,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461681166
 GameObject:
@@ -3385,7 +3385,7 @@ GameObject:
   - component: {fileID: 461681167}
   - component: {fileID: 461681169}
   - component: {fileID: 461681168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42530,7 +42530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1417402675}
   - component: {fileID: 1417402674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42565,7 +42565,7 @@ Transform:
   - {fileID: 1916443869}
   - {fileID: 188203265}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1452411135
 GameObject:
@@ -42578,7 +42578,7 @@ GameObject:
   - component: {fileID: 1452411136}
   - component: {fileID: 1452411138}
   - component: {fileID: 1452411137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46898,7 +46898,7 @@ GameObject:
   - component: {fileID: 1916443869}
   - component: {fileID: 1916443871}
   - component: {fileID: 1916443870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decoration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
