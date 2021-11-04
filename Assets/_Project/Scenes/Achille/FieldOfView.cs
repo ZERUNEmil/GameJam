@@ -49,6 +49,10 @@ public class FieldOfView : MonoBehaviour
             }
             else
             {
+                
+                    Debug.Log(raycastHit2D.collider.name);
+
+                
                 vertex = raycastHit2D.point;
             }
 
@@ -82,7 +86,7 @@ public class FieldOfView : MonoBehaviour
 
     public void setViewDirection(Vector3 direction)
     {
-        startingAnlge = vectorToFloatAngle(direction) - viewAngle / 2f;
+        startingAnlge = vectorToFloatAngle(direction) + viewAngle/2;
     }
     private Vector3 vectorToAngle(float angle)
     {

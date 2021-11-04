@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Patrol : MonoBehaviour
@@ -22,7 +21,7 @@ public class Patrol : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[spot].position, speed * Time.deltaTime);
-        
+        transform.rotation = Quaternion.LookRotation(Vector3.forward,transform.position - moveSpots[spot].position);
         if (Vector2.Distance(transform.position, moveSpots[spot].position) < 0.2f)
         {
             if (waitTime <= 0)
@@ -38,7 +37,7 @@ public class Patrol : MonoBehaviour
 
         }
         _fieldOfView.setOrigin(transform.position);
-        _fieldOfView.setViewDirection(transform.forward);
+        _fieldOfView.setViewDirection(-transform.up);
     }
 
     private int nextSpot()
