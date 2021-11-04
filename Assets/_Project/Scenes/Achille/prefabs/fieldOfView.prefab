@@ -47,10 +47,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _layerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 72
   numberOfRays: 50
   viewDist: 10
-  viewAngle: 90
+  viewAngle: 360
+  playerLayer: 6
 --- !u!33 &4038337763116379322
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -78,7 +79,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9a3109128acefc848a677b8545bf44bf, type: 2}
+  - {fileID: 2100000, guid: ffaa7e2a02b14584e8e0f070a69db59a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
