@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Project/Scenes/Achille/Menu.unity
+    path: Assets/_Project/Scenes/Production/Menu.unity
     guid: 7e563affb65c1094ca5d1da18b93c246
   - enabled: 1
-    path: Assets/_Project/Scenes/Achille/GameRules.unity
+    path: Assets/_Project/Scenes/Production/GameRules.unity
     guid: 22d8c4a4eba49f543afa0d006dcfd0a1
   - enabled: 1
     path: Assets/_Project/Scenes/Production/Prod Scene.unity
