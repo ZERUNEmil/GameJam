@@ -47,6 +47,12 @@ TagManager:
   - name: Midground
     uniqueID: 656084685
     locked: 0
+  - name: Walls
+    uniqueID: 4064928599
+    locked: 0
+  - name: Player
+    uniqueID: 2289680067
+    locked: 0
   - name: Forground
     uniqueID: 1743010863
     locked: 0
