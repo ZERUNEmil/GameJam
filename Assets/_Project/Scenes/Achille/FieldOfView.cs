@@ -12,6 +12,7 @@ public class FieldOfView : MonoBehaviour
     private Vector3 origin;
     private float startingAnlge;
     public int playerLayer;
+    private Transform target;
 
     // Start is called before the first frame update
     void Start()
@@ -52,7 +53,7 @@ public class FieldOfView : MonoBehaviour
             {
                     if(raycastHit2D.collider.gameObject.layer.Equals(playerLayer))
                     {
-                        Debug.Log("FOUND YOU");
+                       target = raycastHit2D.collider.transform;
                     }
 
                 
@@ -103,5 +104,11 @@ public class FieldOfView : MonoBehaviour
         float n = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         if (n < 0) n += 360;
         return n;
+    }
+
+    public Transform getTarget()
+
+    {
+        return target;
     }
 }
