@@ -10,8 +10,7 @@ public class LoseHp : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         var body = other.attachedRigidbody;
-        if( body) dealDamage(body.gameObject)
-            else;
+        if (body) dealDamage(body.gameObject);
     }
 
     void dealDamage(GameObject obj)
