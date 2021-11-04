@@ -496,10 +496,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You are a young hero lost in the cripts.  Avoid the one-eyed monster and
+  m_text: 'You are a young hero lost in the crypts. Avoid the one-eyed monsters and
     collect treasures to hope leave this horrendus palce alive. Attack the mosters
-    from the back and hide in barrels or other furniture to avoid being spotted.
-
+    from behinde and hide in barrels or other furniture to avoid being spotted
 
     Good
     luck !!'
