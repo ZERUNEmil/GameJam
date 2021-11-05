@@ -31,6 +31,7 @@ public class FieldOfView : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        
         float fov = viewAngle;
         int rayCount = numberOfRays;
         float angle = startingAnlge;
@@ -92,6 +93,7 @@ public class FieldOfView : MonoBehaviour
     public void setOrigin(Vector3 origin)
     {
         this.origin = origin;
+        Debug.Log("new Origin");
     }
 
     public void setViewDirection(Vector3 direction)
