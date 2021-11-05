@@ -29,7 +29,8 @@ public class Health : MonoBehaviour, IDamageable
     private void PlayAnimationAndDestroy()
     {
        Destroy(gameObject, 0.6f);
-           anim.Play("Enemy_die");
+       gameObject.GetComponent<Patrol>().speed = 0;
+       anim.Play("Enemy_die");
     }
     
 }
