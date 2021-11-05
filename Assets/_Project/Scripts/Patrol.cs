@@ -13,7 +13,7 @@ public class Patrol : MonoBehaviour
     private Vector3 view;
 
 
- //   [SerializeField] private Animator animator;
+    [SerializeField] private Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -51,7 +51,7 @@ public class Patrol : MonoBehaviour
             */
           var angle = Vector3.SignedAngle(Vector3.down, _fieldOfView.getTarget().position - transform.position, Vector3.back)+180;
 
-            //  animator.SetFloat("Angle", angle);
+              animator.SetFloat("Angle", angle);
 
               view = _fieldOfView.getTarget().position - transform.position;
           
@@ -81,7 +81,7 @@ public class Patrol : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[spot].position, speed * Time.deltaTime);
        // transform.rotation = Quaternion.LookRotation(Vector3.forward,transform.position - moveSpots[spot].position);
        var angle = Vector3.SignedAngle(Vector3.down, moveSpots[spot].position - transform.position, Vector3.back)+180;
-      // animator.SetFloat("Angle", angle);
+       animator.SetFloat("Angle", angle);
 
        view = moveSpots[spot].position- transform.position;
        

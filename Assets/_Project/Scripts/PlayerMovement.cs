@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,13 +10,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     [SerializeField] private float durationSwordAnimation;
     [SerializeField] private float interval;
-
     [SerializeField] private float rollSpeed = 15;
-
-
     private Vector3 lastLooked;
-    
-
     private State state;
     enum State
     {
@@ -26,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
         sneaking
         
     }
-
     private void Awake()
     {
        state = State.walking;
@@ -38,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     private bool _busyAttacking;
     private bool _keepAttacking;
     [SerializeField] private LayerMask blockingLayers;
+    
 
 
     // Update is called once per frame
@@ -65,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
             
             case State.rolling:
                 HandleRollSliding();
+
                 break;
         }
     }
