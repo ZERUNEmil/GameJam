@@ -57,14 +57,13 @@ public class FieldOfView : MonoBehaviour
             {
                     if(raycastHit2D.collider.gameObject.layer.Equals(playerLayer))
                     {
-                      
-                       target = raycastHit2D.collider.transform;
-                       
+                        target = raycastHit2D.collider.transform ;
+
                     }
-
-
                     vertex = raycastHit2D.point;
             }
+
+            
 
             vertices[vertexIndex] = vertex;
             if (i > 0)
@@ -86,6 +85,7 @@ public class FieldOfView : MonoBehaviour
         mesh.triangles = triangles;
 
     }
+    
 
     
 
@@ -116,5 +116,10 @@ public class FieldOfView : MonoBehaviour
 
     {
         return target;
+    }
+
+    public void setTarget(Transform t)
+    {
+        target= t;
     }
 }

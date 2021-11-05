@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Background
   - Hiding
   - Player
-  - 
-  - 
+  - Wall
+  - Obstacle
   - 
   - 
   - 
@@ -50,9 +51,15 @@ TagManager:
   - name: Walls
     uniqueID: 4064928599
     locked: 0
+  - name: Enemy
+    uniqueID: 3706165961
+    locked: 0
   - name: Player
     uniqueID: 2289680067
     locked: 0
   - name: Forground
     uniqueID: 1743010863
+    locked: 0
+  - name: Fog
+    uniqueID: 1879075247
     locked: 0

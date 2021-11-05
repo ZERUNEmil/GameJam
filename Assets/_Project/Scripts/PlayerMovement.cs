@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     private Vector2 movement;
     public Animator animator;
+    private Collider2D col;
     
     
     // Update is called once per frame
@@ -41,7 +42,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+       
     }
     
     
