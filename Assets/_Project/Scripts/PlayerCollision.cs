@@ -13,8 +13,6 @@ public class PlayerCollision : MonoBehaviour
     {
         if (gameObject.tag == "Player" && other.transform.tag == "Enemy")
         {
-            //int test = gameObject.GetComponentInChildren<CircleCollider2D>().gameObject.layer;
-            //Debug.Log(test);
             Die();
         }
     }
