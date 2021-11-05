@@ -31,9 +31,11 @@ public class GenerateSound : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D ennemy)
     {
-       
+        
+        
         if (ennemy.CompareTag("Enemy"))
         {
+            Debug.Log("I saw you");
             ennemy.gameObject.GetComponent<FieldOfView>().setTarget(transform);
            
         }

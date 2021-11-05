@@ -223,6 +223,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 2116151674}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &99989650 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 734969539}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &121698161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -292,6 +297,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1348591932}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: DopplerLevel
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4123,6 +4156,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 681444493}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &224524974 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 398843232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &245741972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4276,6 +4314,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 224524974}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -4330,6 +4388,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+--- !u!82 &414138350 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 780114116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &414642810 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
@@ -4342,6 +4405,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 692108831}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -4549,6 +4632,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1988317067}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -4731,6 +4834,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
   m_PrefabInstance: {fileID: 1219798292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &563958179 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 946334059}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &564405104 stripped
 Transform:
@@ -4951,6 +5059,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 737789947}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5005,6 +5133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+--- !u!82 &692108831 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 427179653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &694097008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5079,6 +5212,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 823244891}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -5140,6 +5293,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 99989650}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -5194,6 +5367,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+--- !u!82 &737789947 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 681444493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &741532611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -5263,6 +5441,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 414138350}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5354,6 +5552,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 473812355}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &823244891 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 718654902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &823543286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5757804215286228526, guid: b3e7670663f728346af1f56bb5b0a96e, type: 3}
@@ -5428,6 +5631,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1908921605}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -5482,6 +5705,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+--- !u!82 &871499010 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 922985486}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &874121353 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -5494,6 +5722,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2061377177}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -5560,6 +5808,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 871499010}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5614,6 +5882,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+--- !u!82 &926193214 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 2116151674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &946334059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5621,6 +5894,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 563958179}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -5945,6 +6238,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 13.09
       objectReference: {fileID: 0}
+    - target: {fileID: 7629300303727006382, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: ISeeYou
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f37884fdd08a634998b4fc4bafc2af6, type: 3}
+    - target: {fileID: 7629300303727006382, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1947877447}
     - target: {fileID: 7629300303949218725, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
       propertyPath: m_Name
       value: Enemy2
@@ -5967,6 +6268,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2083612992}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -6026,6 +6347,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 946334059}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1104946684 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 1838068715}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1156984163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6033,6 +6359,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2027438452}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -6206,6 +6552,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 398843232}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1322481790 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5455064663195451766, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+  m_PrefabInstance: {fileID: 7629300303089645396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1348591932 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 161689154}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1361762507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -6323,6 +6679,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1618321271}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -10835,6 +11211,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1521767419 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 1905457570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1524087303 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 1994455608}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1531925425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10902,6 +11288,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
   m_PrefabInstance: {fileID: 778345946}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1618321271 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 1424974172}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1700469457
 GameObject:
   m_ObjectHideFlags: 0
@@ -10966,6 +11357,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2096302589}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -11156,6 +11567,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1104946684}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -11217,6 +11648,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1521767419}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -11328,6 +11779,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
+--- !u!82 &1908921605 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 864957320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1916443868
 GameObject:
   m_ObjectHideFlags: 0
@@ -11805,6 +12261,11 @@ TilemapCollider2D:
   m_Offset: {x: -0.03, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!82 &1947877447 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5455064663195451766, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+  m_PrefabInstance: {fileID: 1006260774}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1954795341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11847,6 +12308,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
   m_PrefabInstance: {fileID: 2115935929}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1988317067 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 473812355}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1994455608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11854,6 +12320,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1524087303}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12054,6 +12540,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
+--- !u!82 &2027438452 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 1156984163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2050591042
 GameObject:
   m_ObjectHideFlags: 0
@@ -12451,15 +12942,30 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!82 &2061377177 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 877625078}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2076750366 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
   m_PrefabInstance: {fileID: 79772709}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &2083612992 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 1063367786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2095093077 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 427179653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2096302589 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+  m_PrefabInstance: {fileID: 1760764070}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2115935929
 PrefabInstance:
@@ -12505,6 +13011,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 926193214}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -12566,6 +13092,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013981554}
     m_Modifications:
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Volume
+      value: 0.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.477
+      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -12690,6 +13232,107 @@ PrefabInstance:
       objectReference: {fileID: 823543290}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
+--- !u!1 &4128345254362876927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4128345253206217922, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
+  m_PrefabInstance: {fileID: 4128345254362876926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &4128345254362876928
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4128345254362876927}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 40ff917237aaa784cae9c336b2af4c1d, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.143
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 43
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &5757804214499124184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12834,6 +13477,14 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[16]
       value: 
       objectReference: {fileID: 1462711557}
+    - target: {fileID: 7629300303727006382, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: ISeeYou
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f37884fdd08a634998b4fc4bafc2af6, type: 3}
+    - target: {fileID: 7629300303727006382, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1322481790}
     - target: {fileID: 7629300303949218725, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
       propertyPath: m_Name
       value: Enemy1

@@ -1,5 +1,7 @@
 
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Patrol : MonoBehaviour
 {
@@ -7,6 +9,7 @@ public class Patrol : MonoBehaviour
     public Transform[] moveSpots;
     public float startWaitTile;
     private float waitTime;
+    
     private int spot;
     private bool isPatrolling = true;
     [SerializeField] private FieldOfView _fieldOfView;
@@ -14,6 +17,12 @@ public class Patrol : MonoBehaviour
 
 
     [SerializeField] private Animator animator;
+    
+    
+    public AudioSource audioSource;
+    [SerializeField] private AudioClip ISeeYou;
+    
+   
 
     // Start is called before the first frame update
     void Start()
@@ -26,13 +35,16 @@ public class Patrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        audioSource.PlayOneShot(ISeeYou,2);
         if (_fieldOfView.getTarget() != null) isPatrolling = false;
         if (isPatrolling)
         {
+           
             Patrolling();
         }
-        else 
+        else
         {
+            
             Following();
             
         }
@@ -54,7 +66,7 @@ public class Patrol : MonoBehaviour
               animator.SetFloat("Angle", angle);
 
               view = _fieldOfView.getTarget().position - transform.position;
-          
+              
 
             if (waitTime <= 0)
             {
@@ -111,6 +123,8 @@ public class Patrol : MonoBehaviour
     {
         return spot++ ;
     }
+
+    
     
     
     

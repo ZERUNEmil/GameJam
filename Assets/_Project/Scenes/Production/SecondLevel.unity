@@ -5958,6 +5958,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
   m_PrefabInstance: {fileID: 910297073}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &683002957 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5455064663195451766, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+  m_PrefabInstance: {fileID: 1145375421}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &843654177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6133,6 +6138,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
   m_PrefabInstance: {fileID: 1109775181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &967278961 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5455064663195451766, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+  m_PrefabInstance: {fileID: 1502728648}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &969234446
 GameObject:
@@ -6384,6 +6394,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7629300303634714628, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: ISeeYou
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f37884fdd08a634998b4fc4bafc2af6, type: 3}
+    - target: {fileID: 7629300303634714628, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 683002957}
     - target: {fileID: 7629300303634714628, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
       propertyPath: moveSpots.Array.size
       value: 6
@@ -18039,6 +18057,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7629300303634714628, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: ISeeYou
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f37884fdd08a634998b4fc4bafc2af6, type: 3}
+    - target: {fileID: 7629300303634714628, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 967278961}
+    - target: {fileID: 7629300303634714628, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
       propertyPath: moveSpots.Array.size
       value: 12
       objectReference: {fileID: 0}
@@ -18437,7 +18463,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1743010863
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.5, y: 1.5, z: 0}
