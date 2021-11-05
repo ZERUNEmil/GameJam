@@ -9,17 +9,16 @@ using Vector3 = UnityEngine.Vector3;
 public class GenerateSound : MonoBehaviour
 {
     [SerializeField] private Transform soundOrigin;
+   
     private int x, y, z = 1;
-    private Vector3 VMax = new Vector3(10,10,10);
+    private Vector3 VMax = new Vector3(7,7,7);
     private Vector3 mMax = new Vector3(1,1,1);
+    
+    
     public PlayerMovement playerSpeed; 
    
-    void Start()
-    {
-        
-    }
+   
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (Input.GetButton("Fire1"))
@@ -41,6 +40,7 @@ public class GenerateSound : MonoBehaviour
         if (ennemy.CompareTag("Enemy"))
         {
             ennemy.gameObject.GetComponent<FieldOfView>().setTarget(transform);
+           
         }
     }
 
