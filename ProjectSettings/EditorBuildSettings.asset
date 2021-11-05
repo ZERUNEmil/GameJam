@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/_Project/Scenes/Achille/EndOfGame.unity
+    path: Assets/_Project/Scenes/Production/EndOfGame.unity
     guid: 64062a7228ed0424090f666cf4c49244
   m_configObjects: {}
