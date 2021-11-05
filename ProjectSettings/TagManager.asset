@@ -15,13 +15,13 @@ TagManager:
   - Background
   - Hiding
   - Player
+  - Enemy
+  - 
+  - SoundZone
+  - 
+  - Traps
   - Wall
   - Obstacle
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -53,6 +53,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 3706165961
+    locked: 0
+  - name: Sound Circle
+    uniqueID: 2792831985
     locked: 0
   - name: Player
     uniqueID: 2289680067
