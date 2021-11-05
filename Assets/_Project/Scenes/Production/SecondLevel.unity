@@ -5858,10 +5858,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 443441569354928424, guid: b3e7670663f728346af1f56bb5b0a96e, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5757804215286228514, guid: b3e7670663f728346af1f56bb5b0a96e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5909,10 +5905,6 @@ PrefabInstance:
     - target: {fileID: 5757804215286228526, guid: b3e7670663f728346af1f56bb5b0a96e, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6058122609749505527, guid: b3e7670663f728346af1f56bb5b0a96e, type: 3}
-      propertyPath: blockingLayers.m_Bits
-      value: 1537
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3e7670663f728346af1f56bb5b0a96e, type: 3}
