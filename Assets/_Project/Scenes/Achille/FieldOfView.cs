@@ -13,6 +13,10 @@ public class FieldOfView : MonoBehaviour
     private float startingAnlge;
     [SerializeField] private int playerLayer;
     private Transform target;
+    public AudioSource audioSource;
+    [SerializeField] private AudioClip ISeeYou;
+
+    private bool seen = false;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +35,7 @@ public class FieldOfView : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        
         float fov = viewAngle;
         int rayCount = numberOfRays;
         float angle = startingAnlge;
@@ -58,7 +63,15 @@ public class FieldOfView : MonoBehaviour
                     if(raycastHit2D.collider.gameObject.layer.Equals(playerLayer))
                     {
                         target = raycastHit2D.collider.transform ;
+                        seen = true;
+                       
 
+                    }
+
+                    if (seen)
+                    {
+                        audioSource.PlayOneShot(ISeeYou,0.2f);
+                        seen = false;
                     }
                     vertex = raycastHit2D.point;
             }
