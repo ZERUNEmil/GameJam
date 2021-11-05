@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: enemy_die
+  m_Name: Enemy_die
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,25 +21,25 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 5835824111495859345, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
-    - time: 0.33333334
+    - time: 0.083333336
       value: {fileID: 1834587441774781953, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
-    - time: 0.6666667
+    - time: 0.16666667
       value: {fileID: -6429682452492026388, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
-    - time: 1
+    - time: 0.25
       value: {fileID: 3952705803024651457, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
-    - time: 1.3333334
+    - time: 0.33333334
       value: {fileID: 5434011357106581744, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
-    - time: 1.6666666
+    - time: 0.41666666
       value: {fileID: 8318068288937103316, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
-    - time: 2
+    - time: 0.5
       value: {fileID: 7354536916080837739, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
-    - time: 2.3333333
+    - time: 0.5833333
       value: {fileID: -6078224833142786286, guid: 6651e0fe74b57a244bd97aa847fc9f72, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 3
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -67,7 +67,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.6666665
+    m_StopTime: 0.6666666
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
