@@ -18,7 +18,7 @@ public class EndOfLevel : MonoBehaviour
 
     public void NextLevel()
     {
-        Debug.Log("FIN de LEVEL");
+       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }

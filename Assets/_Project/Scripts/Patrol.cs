@@ -36,7 +36,6 @@ public class Patrol : MonoBehaviour
             Following();
             
         }
-        Debug.Log("calculateOrigin");
         _fieldOfView.setOrigin(transform.position);
         _fieldOfView.setViewDirection(view);
         
