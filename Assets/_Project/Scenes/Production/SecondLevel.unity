@@ -18090,6 +18090,10 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[11]
       value: 
       objectReference: {fileID: 1752296509}
+    - target: {fileID: 7629300303634714629, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7629300303949218725, guid: a192f8741ed90a647954c906af2bdc39, type: 3}
       propertyPath: m_Name
       value: Enemy1
