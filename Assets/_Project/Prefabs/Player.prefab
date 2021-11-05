@@ -219,6 +219,8 @@ MonoBehaviour:
   animator: {fileID: 3613477561095729743}
   durationSwordAnimation: 0.1
   interval: 1
+  durationRollAnimation: 0.3
+  rollInterval: 5
 --- !u!95 &3613477561095729743
 Animator:
   serializedVersion: 3

@@ -11,10 +11,16 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float durationSwordAnimation;
     [SerializeField] private float interval;
+    [SerializeField] private float durationRollAnimation;
+    [SerializeField] private float rollInterval;
     
     //private bool _canAttack;
     private bool _busyAttacking;
     private bool _keepAttacking;
+    
+    //private bool _canRoll
+    private bool _busyRolling;
+    private bool _keepRolling;
 
 
     // Update is called once per frame
@@ -32,8 +38,15 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetFloat("LastMoveHorizontal", Input.GetAxisRaw("Horizontal"));
                 animator.SetFloat("LastMoveVertical", Input.GetAxisRaw("Vertical"));
             }
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Roll();
+            }    
     }
-    
+
+   
+
     void HandleMovement()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -58,6 +71,36 @@ public class PlayerMovement : MonoBehaviour
         {
             StartCoroutine(Attacking());
         }
+    }
+    private void Roll()
+    {
+        _keepRolling = true;
+        if (!_busyRolling)
+        {
+            StartCoroutine(Rolling());
+            
+        }
+    }
+    
+    private IEnumerator Rolling()
+    {
+        _busyRolling = true;
+        while (_keepRolling)
+        {
+            
+            animator.SetBool("isRolling", true);
+            _busyRolling = true;
+            
+            yield return new WaitForSeconds(durationRollAnimation);
+            _keepRolling = false;
+            yield return null;
+        }
+        animator.SetBool("isRolling", false);
+        rb.MovePosition(rb.position + movement * 15f * Time.fixedDeltaTime);
+        yield return new WaitForSeconds(rollInterval);
+        _busyRolling = false;
+        
+
     }
 
     private IEnumerator Attacking()
