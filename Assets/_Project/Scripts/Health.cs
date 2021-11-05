@@ -5,20 +5,31 @@ public class Health : MonoBehaviour, IDamageable
     [SerializeField] private int initHealth;
     [SerializeField] private int currentHealth;
 
+    public HealthBar healthBar;
+
+    private Animator anim;
+
     private void OnEnable()
     {
         currentHealth = initHealth;
-    }
+        healthBar.SetMaxHealth(initHealth);
+        anim = GetComponent<Animator>();
+
+    } 
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+        
         if (currentHealth <= 0)
-            Die();
+            PlayAnimationAndDestroy();
     }
 
-    private void Die()
+    private void PlayAnimationAndDestroy()
     {
-        Destroy(gameObject);
+       Destroy(gameObject, 0.6f);
+       anim.Play("Enemy_die");
     }
+    
 }
