@@ -48,7 +48,7 @@ public class FieldOfView : MonoBehaviour
         {
             Vector3 vertex;
             RaycastHit2D raycastHit2D = Physics2D.Raycast(origin, vectorToAngle(angle), viewDistance, _layerMask);
-            Debug.DrawRay(origin,vectorToAngle(angle));
+            Debug.DrawRay(origin,vectorToAngle(angle),Color.red);
             if (raycastHit2D.collider == null)
             {
                 vertex = origin + vectorToAngle(angle) * viewDistance;
