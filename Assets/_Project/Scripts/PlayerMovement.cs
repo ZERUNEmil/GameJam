@@ -22,8 +22,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     animator.SetFloat("LastMoveHorizontal", Input.GetAxisRaw("Horizontal"));
                     animator.SetFloat("LastMoveVertical", Input.GetAxisRaw("Vertical"));
-                
-
+                    
         }
     }
     
