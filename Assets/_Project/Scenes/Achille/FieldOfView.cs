@@ -19,8 +19,8 @@ public class FieldOfView : MonoBehaviour
     {
         
         mesh = new Mesh();
-        var bounds = new Bounds(Vector3.negativeInfinity, Vector3.positiveInfinity);
-        mesh.bounds = bounds;
+       var bounds = new Bounds(Vector3.negativeInfinity, Vector3.positiveInfinity);
+         mesh.bounds = bounds;
 
 
         GetComponent<MeshFilter>().mesh = mesh;
