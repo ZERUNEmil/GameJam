@@ -200,7 +200,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &6058122609749505527
 MonoBehaviour:
@@ -219,8 +219,10 @@ MonoBehaviour:
   animator: {fileID: 3613477561095729743}
   durationSwordAnimation: 0.1
   interval: 1
-  durationRollAnimation: 0.3
-  rollInterval: 5
+  rollSpeed: 50
+  blockingLayers:
+    serializedVersion: 2
+    m_Bits: 1537
 --- !u!95 &3613477561095729743
 Animator:
   serializedVersion: 3
