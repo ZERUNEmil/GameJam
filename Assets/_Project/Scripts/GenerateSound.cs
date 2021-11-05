@@ -16,12 +16,12 @@ public class GenerateSound : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetKey(KeyCode.LeftControl))
         {
            growSound(VMax,transform );
            playerSpeed.moveSpeed = 7;
         }
-        if (Input.GetButton("Fire2"))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             reduceSound(mMax, transform);
             playerSpeed.moveSpeed = 4;

@@ -166,7 +166,7 @@ public class PlayerMovement : MonoBehaviour
     
     void HandleRoll()
     {
-        if (Input.GetMouseButton(1))
+        if (Input.GetKey(KeyCode.Space))
         {
             state = State.rolling;
             rollSpeed = 20f;
