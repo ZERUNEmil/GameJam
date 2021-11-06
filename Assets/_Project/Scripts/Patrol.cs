@@ -12,16 +12,15 @@ public class Patrol : MonoBehaviour
     
     private int spot;
     private bool isPatrolling = true;
-    [SerializeField] private FieldOfView _fieldOfView;
+    [SerializeField] public FieldOfView _fieldOfView;
     private Vector3 view;
 
 
     [SerializeField] private Animator animator;
     
-    
+   
     public AudioSource audioSource;
-    [SerializeField] private AudioClip ISeeYou;
-    
+    public AudioClip ISeeYou;
    
 
     // Start is called before the first frame update
@@ -35,7 +34,6 @@ public class Patrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        audioSource.PlayOneShot(ISeeYou,2);
         if (_fieldOfView.getTarget() != null) isPatrolling = false;
         if (isPatrolling)
         {
@@ -68,6 +66,9 @@ public class Patrol : MonoBehaviour
 
               view = _fieldOfView.getTarget().position - transform.position;
               
+              
+              audioSource.PlayOneShot(ISeeYou,3);
+              Debug.Log("j'ai chanté");
 
             if (waitTime <= 0)
             {

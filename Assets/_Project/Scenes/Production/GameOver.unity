@@ -1136,7 +1136,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 577467626}
         m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
-        m_MethodName: QuitApp
+        m_MethodName: retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
