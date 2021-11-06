@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,7 +16,7 @@ public class PlayerCollision : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.tag == "Enemy"){
+        if(gameObject.tag == "Player" && col.gameObject.tag == "Enemy"){
             isTouched  = true;
             Die();
         }
