@@ -336,6 +336,7 @@ MonoBehaviour:
   durationSwordAnimation: 0.1
   interval: 1
   rollSpeed: 50
+  rollCooldown: 5
   blockingLayers:
     serializedVersion: 2
     m_Bits: 1537

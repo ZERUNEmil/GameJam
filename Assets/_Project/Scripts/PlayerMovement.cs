@@ -17,9 +17,11 @@ public class PlayerMovement : MonoBehaviour
     {
         walking,
         rolling,
-        sneaking
-        
     }
+    
+    public float rollCooldown;
+    private bool coolDown = true;
+
     private void Awake()
     {
        state = State.walking;
@@ -37,8 +39,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        
+ 
         switch (state)
         {
             case State.walking:
@@ -59,9 +60,20 @@ public class PlayerMovement : MonoBehaviour
             
             case State.rolling:
                 HandleRollSliding();
-
                 break;
         }
+    }
+    private void FixedUpdate()
+    {
+        if (state == State.rolling) return;
+        var position = rb.position;
+        rb.MovePosition(Vector2.MoveTowards(position, position+(Vector2)movement, moveSpeed * Time.fixedDeltaTime));
+    }
+    private bool CanMove(Vector3 dir, float distance)
+    {
+        var hit = Physics2D.Raycast(transform.position, dir, distance, blockingLayers).collider;
+        return hit == null;
+
     }
     void HandleMovement()
     {
@@ -71,33 +83,7 @@ public class PlayerMovement : MonoBehaviour
         
         animator.SetFloat("Horizontal",movement.x);
         animator.SetFloat("Vertical",movement.y);
-       // animator.SetFloat("Speed",2);
-        
-        
     }
-
-    private void FixedUpdate()
-    {
-        //  Debug.DrawRay(rb.position, movement, Color.blue);
-        
-
-
-//        transform.position = Vector2.MoveTowards
- //           (transform.position, transform.position + movement, moveSpeed * Time.deltaTime);
-        //   rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        if (state == State.rolling) return;
-        var position = rb.position;
-        rb.MovePosition(Vector2.MoveTowards(position, position+(Vector2)movement, moveSpeed * Time.fixedDeltaTime));
-    }
-
-    private bool CanMove(Vector3 dir, float distance)
-    {
-       
-        var hit = Physics2D.Raycast(transform.position, dir, distance, blockingLayers).collider;
-        return hit == null;
-
-    }
-
     private float MoveDistance(Vector3 dir, float desiredDistance)
     {
         var hit = Physics2D.Raycast(transform.position, dir, desiredDistance, blockingLayers);
@@ -108,48 +94,38 @@ public class PlayerMovement : MonoBehaviour
     {
         movement = baseMoveDir;
         bool canMove = CanMove(movement, distance);
-        if (!canMove)
-        {
+        if (!canMove) {
             //cannot move diagonally
             movement = new Vector3(baseMoveDir.x, 0f).normalized;
             canMove = movement.x != 0f && CanMove(movement, distance);
-            if (!canMove)
-            {
+            if (!canMove) {
                 //cannot move horizontally
                 movement = new Vector3(0f, baseMoveDir.y).normalized;
                 canMove = movement.y != 0f && CanMove(movement, distance);
             }
         }
-
-        if (canMove)
-        {
+        if (canMove) {
             lastLooked = movement;
             transform.position += movement * distance;
             return true;
         }
-        else
-        {
+        else {
             movement = Vector3.zero;
             return false;
         }
-        
     }
     
     
-    private void Attack()
-    {
+    private void Attack() {
         _keepAttacking = true;
-        if (!_busyAttacking)
-        {
+        if (!_busyAttacking) {
             StartCoroutine(Attacking());
         }
     }
    
-    private IEnumerator Attacking()
-    {
+    private IEnumerator Attacking() {
         _busyAttacking = true;
-        while (_keepAttacking)
-        {
+        while (_keepAttacking) {
             
             animator.SetBool("isAttacking", true);
             _busyAttacking = true;
@@ -164,26 +140,41 @@ public class PlayerMovement : MonoBehaviour
         
     }
     
-    void HandleRoll()
-    {
-        if (Input.GetKey(KeyCode.Space))
+    void HandleRoll() {
+        if (coolDown)
         {
+        if (Input.GetKey(KeyCode.Space)) {
             state = State.rolling;
-            rollSpeed = 20f;
+                rollSpeed = 20f;
+            }
+
         }
     }
 
-    private void HandleRollSliding()
+    private void HandleRollSliding() {
+        
+            animator.SetBool("isRolling", true);
+            TryMove(lastLooked, rollSpeed * Time.deltaTime);
+            // transform.position += lastLooked * rollSpeed * Time.deltaTime;
+            rollSpeed -= rollSpeed * 10f * Time.deltaTime;
+            if (rollSpeed < 5f)
+            {
+                state = State.walking;
+                animator.SetBool("isRolling", false);
+            }
+            CooldownStart();
+        
+    }
+    
+    public void CooldownStart()
     {
-        animator.SetBool("isRolling",true);
-        TryMove(lastLooked, rollSpeed * Time.deltaTime);
-       // transform.position += lastLooked * rollSpeed * Time.deltaTime;
-        rollSpeed -= rollSpeed * 10f * Time.deltaTime;
-        if (rollSpeed < 5f)
-        {
-            state = State.walking;
-            animator.SetBool("isRolling",false);
-        }
+        StartCoroutine(CooldownCoroutine());
+    }
+    IEnumerator CooldownCoroutine()
+    {
+        coolDown = false;
+        yield return new WaitForSeconds(rollCooldown);
+        coolDown = true;
     }
     
 }
