@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.41960785}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.050980393}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -115,6 +115,7 @@ MonoBehaviour:
   soundOrigin: {fileID: 5757804215286228514}
   anim: {fileID: 3613477561095729743}
   playerSpeed: {fileID: 6058122609749505527}
+  sneakCooldown: 0.5
 --- !u!1 &5757804214601671416
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,16 +331,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d983b281fa01de4882dbc9722f5c2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  rb: {fileID: 443441569354928424}
-  animator: {fileID: 3613477561095729743}
   durationSwordAnimation: 0.1
   interval: 1
   rollSpeed: 50
-  rollCooldown: 5
   blockingLayers:
     serializedVersion: 2
     m_Bits: 1537
+  moveSpeed: 2
+  rb: {fileID: 443441569354928424}
+  animator: {fileID: 3613477561095729743}
+  rollCooldown: 5
 --- !u!95 &3613477561095729743
 Animator:
   serializedVersion: 3
@@ -387,5 +388,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e26afac80f25e438ea44584d8528b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTouched: 0
-  obj: {fileID: 0}

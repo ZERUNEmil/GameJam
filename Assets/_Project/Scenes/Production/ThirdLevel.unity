@@ -14725,7 +14725,6 @@ GameObject:
   - component: {fileID: 1767965300}
   - component: {fileID: 1767965303}
   - component: {fileID: 1767965302}
-  - component: {fileID: 1767965301}
   m_Layer: 6
   m_Name: Obstacle
   m_TagString: Untagged
@@ -14747,22 +14746,6 @@ Transform:
   m_Father: {fileID: 1463806295}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!19719996 &1767965301
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767965299}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
 --- !u!483693784 &1767965302
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -14800,8 +14783,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1743010863
-  m_SortingLayer: 7
+  m_SortingLayerID: -1624579861
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.5, y: 1.5, z: 0}
