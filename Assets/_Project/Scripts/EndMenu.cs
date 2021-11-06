@@ -13,8 +13,8 @@ public class EndMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void secretMennu()
+    public void retry()
     {
-        SceneManager.LoadScene("GameRules");
+        SceneManager.LoadScene("Prod Scene");
     }
 }

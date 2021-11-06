@@ -8,7 +8,7 @@ public class GenerateSound : MonoBehaviour
     private int x, y, z = 1;
     private Vector3 VMax = new Vector3(7,7,7);
     private Vector3 mMax = new Vector3(1,1,1);
-    
+    [SerializeField] private Animator anim;
     
     public PlayerMovement playerSpeed; 
    
@@ -16,15 +16,17 @@ public class GenerateSound : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.LeftControl))
-        {
-           growSound(VMax,transform );
-           playerSpeed.moveSpeed = 7;
-        }
         if (Input.GetKey(KeyCode.LeftShift))
         {
+           growSound(VMax,transform );
+           playerSpeed.moveSpeed = 6;
+           anim.SetFloat("Speed", 6);
+        }
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
             reduceSound(mMax, transform);
-            playerSpeed.moveSpeed = 4;
+            playerSpeed.moveSpeed = 2;
+            anim.SetFloat("Speed", 2);
         }
         
     }
