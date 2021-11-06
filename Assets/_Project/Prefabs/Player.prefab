@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1148553972}
   - component: {fileID: 1148553971}
   - component: {fileID: 1148553970}
-  m_Layer: 11
+  m_Layer: 8
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -588801335
-  m_SortingLayer: 4
+  m_SortingLayerID: -1502135311
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.41960785}
@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundOrigin: {fileID: 5757804215286228514}
+  anim: {fileID: 3613477561095729743}
   playerSpeed: {fileID: 6058122609749505527}
 --- !u!1 &5757804214601671416
 GameObject:
@@ -221,7 +222,7 @@ GameObject:
   - component: {fileID: 6058122609749505527}
   - component: {fileID: 3613477561095729743}
   - component: {fileID: 2492471560097189381}
-  - component: {fileID: 4563409256643545061}
+  - component: {fileID: 823543293}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -329,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d983b281fa01de4882dbc9722f5c2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
   rb: {fileID: 443441569354928424}
   animator: {fileID: 3613477561095729743}
   durationSwordAnimation: 0.1
@@ -373,7 +374,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.05}
   serializedVersion: 2
   m_Radius: 0.2
---- !u!114 &4563409256643545061
+--- !u!114 &823543293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

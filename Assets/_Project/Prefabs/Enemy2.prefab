@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 475604090995368378}
   - component: {fileID: 8541439479673995417}
   - component: {fileID: 278700282377996318}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 8578662866909541466}
   - component: {fileID: 1701500450260696595}
   - component: {fileID: 1846784574669301571}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 2127184918329756991}
   - component: {fileID: 8145819467841321285}
   - component: {fileID: 9127970744230547224}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,8 +300,7 @@ GameObject:
   - component: {fileID: 4673943595339521308}
   - component: {fileID: 4782629731041000351}
   - component: {fileID: 858027520446737255}
-  - component: {fileID: 3699255897038214994}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -475,7 +474,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   startWaitTile: 3
-  _fieldOfView: {fileID: 0}
+  _fieldOfView: {fileID: 975050121284677551}
   animator: {fileID: 7893960207136723577}
 --- !u!114 &4782629731041000351
 MonoBehaviour:
@@ -506,102 +505,6 @@ MonoBehaviour:
   initHealth: 3
   currentHealth: 0
   healthBar: {fileID: 278700282377996318}
---- !u!82 &3699255897038214994
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3697357452948127463}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0c4bf4e7d1110d3439a722b46f63fe47, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 7
-  Pan2D: 0
-  rolloffMode: 1
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1.1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &4259664239965118826
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,7 +517,7 @@ GameObject:
   - component: {fileID: 271942323901810297}
   - component: {fileID: 8979976467718546481}
   - component: {fileID: 5467123581765985506}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyEntity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +648,7 @@ GameObject:
   - component: {fileID: 975050121284677551}
   - component: {fileID: 3278834218246749546}
   - component: {fileID: 4191837726978655305}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fieldOfView
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
@@ -785,8 +688,8 @@ MonoBehaviour:
   viewDist: 6
   viewAngle: 45
   playerLayer: 8
-  audioSource: {fileID: 3699255897038214994}
-  ISeeYou: {fileID: 8300000, guid: 0f37884fdd08a634998b4fc4bafc2af6, type: 3}
+  audioSource: {fileID: 0}
+  ISeeYou: {fileID: 0}
 --- !u!33 &3278834218246749546
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -845,7 +748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6487064110738870032}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +784,7 @@ GameObject:
   - component: {fileID: 5217534821777193094}
   - component: {fileID: 6203551437509420443}
   - component: {fileID: 3007722677444647151}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -130,18 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -190,10 +178,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (25)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1 &24892739
@@ -205,7 +189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24892740}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: SpikeTraps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,18 +251,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -327,10 +299,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &37559895
@@ -340,18 +308,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -399,10 +355,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -566,18 +518,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 435224752521455612, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 989919004065699957, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2092796149110596530, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 2127184918329756991, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -586,105 +526,33 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3697357452948127463, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3699255897038214994, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259664239965118826, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 100991178}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: _fieldOfView
       value: 
-      objectReference: {fileID: 1262190399}
+      objectReference: {fileID: 1205258021}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.size
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[0]
       value: 
-      objectReference: {fileID: 184747954}
+      objectReference: {fileID: 174169225}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[1]
       value: 
-      objectReference: {fileID: 314791803}
+      objectReference: {fileID: 1447904578}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[2]
       value: 
-      objectReference: {fileID: 1770893284}
+      objectReference: {fileID: 679583842}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[3]
       value: 
-      objectReference: {fileID: 1990284454}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[4]
-      value: 
-      objectReference: {fileID: 1119996160}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[5]
-      value: 
-      objectReference: {fileID: 1198245337}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[6]
-      value: 
-      objectReference: {fileID: 1510516467}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[7]
-      value: 
-      objectReference: {fileID: 718177704}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[8]
-      value: 
-      objectReference: {fileID: 385316838}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[9]
-      value: 
-      objectReference: {fileID: 624373609}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: f60a8c90f2cb7c54c86107bf26f26a72, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 16dc3ca71df4e1a4fba9a2be25e035d4, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0c4bf4e7d1110d3439a722b46f63fe47, type: 3}
-    - target: {fileID: 4986726709011632918, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 819205524}
     - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_Name
       value: Enemy2 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6487064110738870032, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_RootOrder
@@ -730,10 +598,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7158484896813442209, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 8757240037740796229, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.88
@@ -748,11 +612,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
---- !u!95 &100991178 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7893960207136723577, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-  m_PrefabInstance: {fileID: 944971693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &118564561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -819,7 +678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 135060617}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: --------Enemy---------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,18 +711,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -911,10 +758,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -987,18 +830,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1046,10 +877,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -1137,18 +964,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1196,10 +1011,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -1382,6 +1193,17 @@ Transform:
   m_Father: {fileID: 1726026825}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &485380393 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 975050121284677551, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
+  m_PrefabInstance: {fileID: 977969730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424901a107bcd4e46a0a76f8156ae9e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &496184336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -1449,107 +1271,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 1119197984}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &536006269 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4128345253206217922, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
-  m_PrefabInstance: {fileID: 538687855}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &536006271
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536006269}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 995dcf7401d55184d866d94290794076, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.158
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 35
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &538687855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1572,14 +1293,6 @@ PrefabInstance:
     - target: {fileID: 4128345253206217921, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
       propertyPath: m_LocalPosition.y
       value: -4.7621927
-      objectReference: {fileID: 0}
-    - target: {fileID: 4128345253206217922, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4128345253206217923, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4128345254283557562, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
       propertyPath: m_RootOrder
@@ -1629,26 +1342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cam
       objectReference: {fileID: 0}
-    - target: {fileID: 4128345254283557565, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4128345254472508057, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4953068508542368804, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1067791188}
-    - target: {fileID: 5538672364611067723, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9053531366970986303, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c30e9155f52b9f14995f33ba788f48cf, type: 3}
 --- !u!4 &557065996 stripped
@@ -1799,18 +1496,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1858,10 +1543,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -1934,18 +1615,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1993,10 +1662,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (26)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -2143,18 +1808,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2202,10 +1855,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -2441,18 +2090,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 435224752521455612, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 989919004065699957, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2092796149110596530, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 2127184918329756991, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2460,26 +2097,6 @@ PrefabInstance:
     - target: {fileID: 2127184918329756991, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3697357452948127463, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259664239965118826, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: _fieldOfView
-      value: 
-      objectReference: {fileID: 1262190399}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.size
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[0]
@@ -2521,37 +2138,9 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[9]
       value: 
       objectReference: {fileID: 624373609}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: f60a8c90f2cb7c54c86107bf26f26a72, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 16dc3ca71df4e1a4fba9a2be25e035d4, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0c4bf4e7d1110d3439a722b46f63fe47, type: 3}
-    - target: {fileID: 4986726709011632918, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_Name
       value: Enemy2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6487064110738870032, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_RootOrder
@@ -2597,10 +2186,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7158484896813442209, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
 --- !u!1001 &971885804
@@ -2610,18 +2195,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2670,10 +2243,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &974508536
@@ -2683,18 +2252,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2743,10 +2300,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &977969730
@@ -2756,18 +2309,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 435224752521455612, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 989919004065699957, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2092796149110596530, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 2127184918329756991, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2776,30 +2317,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3697357452948127463, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3699255897038214994, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259664239965118826, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 100991178}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: _fieldOfView
       value: 
-      objectReference: {fileID: 1262190399}
+      objectReference: {fileID: 485380393}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.size
       value: 10
@@ -2807,74 +2328,46 @@ PrefabInstance:
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[0]
       value: 
-      objectReference: {fileID: 184747954}
+      objectReference: {fileID: 1211257484}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[1]
       value: 
-      objectReference: {fileID: 314791803}
+      objectReference: {fileID: 230905042}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[2]
       value: 
-      objectReference: {fileID: 1770893284}
+      objectReference: {fileID: 1523372549}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[3]
       value: 
-      objectReference: {fileID: 1990284454}
+      objectReference: {fileID: 1310276226}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[4]
       value: 
-      objectReference: {fileID: 1119996160}
+      objectReference: {fileID: 733201165}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[5]
       value: 
-      objectReference: {fileID: 1198245337}
+      objectReference: {fileID: 1644867622}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[6]
       value: 
-      objectReference: {fileID: 1510516467}
+      objectReference: {fileID: 28280806}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[7]
       value: 
-      objectReference: {fileID: 718177704}
+      objectReference: {fileID: 1361984716}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[8]
       value: 
-      objectReference: {fileID: 385316838}
+      objectReference: {fileID: 1589598417}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.data[9]
       value: 
-      objectReference: {fileID: 624373609}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: f60a8c90f2cb7c54c86107bf26f26a72, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 16dc3ca71df4e1a4fba9a2be25e035d4, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0c4bf4e7d1110d3439a722b46f63fe47, type: 3}
-    - target: {fileID: 4986726709011632918, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 557065996}
     - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_Name
       value: Enemy2 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6487064110738870032, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_RootOrder
@@ -2919,10 +2412,6 @@ PrefabInstance:
     - target: {fileID: 6487064110738870032, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7158484896813442209, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
@@ -3594,18 +3083,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -3653,10 +3130,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -3776,18 +3249,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -3835,10 +3296,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -13949,6 +13406,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5674740733134984048, guid: c86c04ed399e5494fbff9393a592902c, type: 3}
   m_PrefabInstance: {fileID: 2098169264}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1205258021 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 975050121284677551, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
+  m_PrefabInstance: {fileID: 81089054}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424901a107bcd4e46a0a76f8156ae9e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1205424879
 GameObject:
   m_ObjectHideFlags: 0
@@ -14107,18 +13575,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -14167,10 +13623,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &1255456281
@@ -14180,18 +13632,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -14240,10 +13680,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &1256689415
@@ -14253,18 +13689,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -14313,10 +13737,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!4 &1257433200 stripped
@@ -14324,17 +13744,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 1256689415}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1262190399 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 975050121284677551, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-  m_PrefabInstance: {fileID: 944971693}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 424901a107bcd4e46a0a76f8156ae9e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1273254765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -14352,18 +13761,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -14412,10 +13809,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &1358233831
@@ -14425,18 +13818,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -14484,10 +13865,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -14753,18 +14130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -14813,10 +14178,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &1460150300
@@ -14826,18 +14187,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -14885,10 +14234,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -14962,18 +14307,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 435224752521455612, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 989919004065699957, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2092796149110596530, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 2127184918329756991, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -14982,30 +14315,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3697357452948127463, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3699255897038214994, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259664239965118826, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 100991178}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: _fieldOfView
       value: 
-      objectReference: {fileID: 1262190399}
+      objectReference: {fileID: 1872758548}
     - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: moveSpots.Array.size
       value: 4
@@ -15026,61 +14339,9 @@ PrefabInstance:
       propertyPath: moveSpots.Array.data[3]
       value: 
       objectReference: {fileID: 1670570739}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[4]
-      value: 
-      objectReference: {fileID: 1119996160}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[5]
-      value: 
-      objectReference: {fileID: 1198245337}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[6]
-      value: 
-      objectReference: {fileID: 1510516467}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[7]
-      value: 
-      objectReference: {fileID: 718177704}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[8]
-      value: 
-      objectReference: {fileID: 385316838}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: moveSpots.Array.data[9]
-      value: 
-      objectReference: {fileID: 624373609}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: f60a8c90f2cb7c54c86107bf26f26a72, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 16dc3ca71df4e1a4fba9a2be25e035d4, type: 3}
-    - target: {fileID: 4673943595339521308, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: audioClipsSteps.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0c4bf4e7d1110d3439a722b46f63fe47, type: 3}
-    - target: {fileID: 4986726709011632918, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_Name
       value: Enemy2 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5094920967179747557, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6487064110738870032, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_RootOrder
@@ -15125,10 +14386,6 @@ PrefabInstance:
     - target: {fileID: 6487064110738870032, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7158484896813442209, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8350070486471161437, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15415,19 +14672,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 1211326519}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1757555807 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5757804215286228526, guid: b3e7670663f728346af1f56bb5b0a96e, type: 3}
-  m_PrefabInstance: {fileID: 73428610}
-  m_PrefabAsset: {fileID: 0}
---- !u!81 &1757555814
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757555807}
-  m_Enabled: 1
 --- !u!1001 &1760314112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16022,18 +15266,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -16081,10 +15313,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -16150,6 +15378,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
   m_PrefabInstance: {fileID: 971885804}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1872758548 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 975050121284677551, guid: 702afc15917480240a1d28dbd6196cf8, type: 3}
+  m_PrefabInstance: {fileID: 1531820666}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424901a107bcd4e46a0a76f8156ae9e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1872775687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16214,18 +15453,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -16274,10 +15501,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &1916662406
@@ -16287,18 +15510,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -16347,10 +15558,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!1001 &1946135362
@@ -16360,18 +15567,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -16420,10 +15615,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTrap (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
 --- !u!4 &1990284454 stripped
@@ -16443,18 +15634,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -16502,10 +15681,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -16573,18 +15748,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -16632,10 +15795,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -16703,18 +15862,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -16762,10 +15909,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -16833,18 +15976,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -16892,10 +16023,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
@@ -16968,18 +16095,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 24892740}
     m_Modifications:
-    - target: {fileID: 553649497, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: delayTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497457246346466183, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2708885878171531906, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -17027,10 +16142,6 @@ PrefabInstance:
     - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
       propertyPath: m_Name
       value: SpikeTrap (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5952471212043168355, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
-      propertyPath: m_Layer
-      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a09ebf49eab764dab07953fc850e49, type: 3}
