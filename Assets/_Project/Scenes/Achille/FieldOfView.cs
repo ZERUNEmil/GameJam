@@ -2,14 +2,20 @@ using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
 {
-    private Mesh mesh;
+    
+    [SerializeField] private int playerLayer;
     [SerializeField]private LayerMask _layerMask;
+    
     public int numberOfRays;
+   
     public float viewDist;
     public float viewAngle;
-    private Vector3 origin;
     private float startingAnlge;
-    [SerializeField] private int playerLayer;
+    
+    private Vector3 origin;
+    
+   private Mesh mesh;
+    
     private Transform target;
     
 
@@ -18,12 +24,10 @@ public class FieldOfView : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         mesh = new Mesh();
        var bounds = new Bounds(Vector3.negativeInfinity, Vector3.positiveInfinity);
          mesh.bounds = bounds;
-
-
+         
         GetComponent<MeshFilter>().mesh = mesh;
         origin = Vector3.zero;
 
@@ -32,7 +36,6 @@ public class FieldOfView : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        
         float fov = viewAngle;
         int rayCount = numberOfRays;
         float angle = startingAnlge;
@@ -55,19 +58,13 @@ public class FieldOfView : MonoBehaviour
             {
                 vertex = origin + vectorToAngle(angle) * viewDistance;
             }
-            else
-            {
-                    if(raycastHit2D.collider.gameObject.layer.Equals(playerLayer))
-                    {
+            else {
+                    if(raycastHit2D.collider.gameObject.layer.Equals(playerLayer)) {
                         target = raycastHit2D.collider.transform ;
                         seen = true;
-                       
-
                     }
 
-                    if (seen)
-                    {
-                       
+                    if (seen) {
                         seen = false;
                     }
                     vertex = raycastHit2D.point;
@@ -96,9 +93,6 @@ public class FieldOfView : MonoBehaviour
 
     }
     
-
-    
-
     public void setOrigin(Vector3 origin)
     {
         this.origin = origin;
@@ -122,14 +116,11 @@ public class FieldOfView : MonoBehaviour
         return n;
     }
 
-    public Transform getTarget()
-
-    {
+    public Transform getTarget() {
         return target;
     }
 
-    public void setTarget(Transform t)
-    {
+    public void setTarget(Transform t) {
         target= t;
     }
 }

@@ -354,7 +354,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   startWaitTile: 0
-  _fieldOfView: {fileID: 7629300303727006382}
+  fieldOfView: {fileID: 7629300303727006382}
   exclamation: {fileID: 0}
   animator: {fileID: 0}
 --- !u!61 &7629300303593581335
@@ -576,7 +576,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   startWaitTile: 3
-  _fieldOfView: {fileID: 7629300303727006382}
+  fieldOfView: {fileID: 7629300303727006382}
   exclamation: {fileID: 6574564823101372923}
   animator: {fileID: 7629300303634714624}
 --- !u!114 &7629300303634714626
@@ -601,7 +601,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7629300303634714649}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0c4bf4e7d1110d3439a722b46f63fe47, type: 3}
@@ -742,8 +742,6 @@ MonoBehaviour:
   viewDist: 6
   viewAngle: 45
   playerLayer: 8
-  audioSource: {fileID: 5455064663195451766}
-  ISeeYou: {fileID: 8300000, guid: 0f37884fdd08a634998b4fc4bafc2af6, type: 3}
 --- !u!33 &7629300303727006376
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -4,54 +4,50 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    public float moveSpeed = 5f;
-    public Rigidbody2D rb;
-    private Vector3 movement;
-    public Animator animator;
     [SerializeField] private float durationSwordAnimation;
     [SerializeField] private float interval;
     [SerializeField] private float rollSpeed = 15;
+    [SerializeField] private LayerMask blockingLayers;
+    
+    public float moveSpeed = 5f;
+    
+    private bool _busyAttacking;
+    private bool _keepAttacking;
+        
+    public Rigidbody2D rb;
+    
+    private Vector3 movement;
     private Vector3 lastLooked;
-    private State state;
-    enum State
-    {
-        walking,
-        rolling,
-    }
+    
+    public Animator animator;
     
     public float rollCooldown;
     private bool coolDown = true;
-
+    
+    private State state;
+    enum State {
+        walking,
+        rolling
+    }
+    
     private void Awake()
     {
        state = State.walking;
        lastLooked = Vector3.down;
     }
-
-
-    //private bool _canAttack;
-    private bool _busyAttacking;
-    private bool _keepAttacking;
-    [SerializeField] private LayerMask blockingLayers;
     
 
-
-    // Update is called once per frame
     void Update()
     {
- 
         switch (state)
         {
             case State.walking:
                 HandleMovement();
                 HandleRoll();
-                if(Input.GetKeyDown(KeyCode.Mouse0))
-                {
+                if(Input.GetKeyDown(KeyCode.Mouse0)) {
                     Attack();
                 }
-        
-                if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 ||Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical")==-1)
-                {
+                if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 ||Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical")==-1) {
                     animator.SetFloat("LastMoveHorizontal", Input.GetAxisRaw("Horizontal"));
                     animator.SetFloat("LastMoveVertical", Input.GetAxisRaw("Vertical"));
                     lastLooked = movement;
@@ -63,18 +59,21 @@ public class PlayerMovement : MonoBehaviour
                 break;
         }
     }
+    
     private void FixedUpdate()
     {
         if (state == State.rolling) return;
         var position = rb.position;
         rb.MovePosition(Vector2.MoveTowards(position, position+(Vector2)movement, moveSpeed * Time.fixedDeltaTime));
     }
+    
     private bool CanMove(Vector3 dir, float distance)
     {
         var hit = Physics2D.Raycast(transform.position, dir, distance, blockingLayers).collider;
         return hit == null;
 
     }
+    
     void HandleMovement()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -83,11 +82,6 @@ public class PlayerMovement : MonoBehaviour
         
         animator.SetFloat("Horizontal",movement.x);
         animator.SetFloat("Vertical",movement.y);
-    }
-    private float MoveDistance(Vector3 dir, float desiredDistance)
-    {
-        var hit = Physics2D.Raycast(transform.position, dir, desiredDistance, blockingLayers);
-        return hit ? hit.distance : desiredDistance;
     }
     
     private bool TryMove(Vector3 baseMoveDir, float distance)
@@ -114,7 +108,6 @@ public class PlayerMovement : MonoBehaviour
             return false;
         }
     }
-    
     
     private void Attack() {
         _keepAttacking = true;
@@ -155,7 +148,6 @@ public class PlayerMovement : MonoBehaviour
         
             animator.SetBool("isRolling", true);
             TryMove(lastLooked, rollSpeed * Time.deltaTime);
-            // transform.position += lastLooked * rollSpeed * Time.deltaTime;
             rollSpeed -= rollSpeed * 10f * Time.deltaTime;
             if (rollSpeed < 5f)
             {

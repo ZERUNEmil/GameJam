@@ -342,7 +342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 141.2, y: -113.8}
+  m_AnchoredPosition: {x: 294, y: -172}
   m_SizeDelta: {x: 160, y: 63.6166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645808932
@@ -473,8 +473,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.2421, y: 1.921}
-  m_SizeDelta: {x: 475.1778, y: 297.8025}
+  m_AnchoredPosition: {x: -0.4099, y: 27.352}
+  m_SizeDelta: {x: 646.0219, y: 327.7981}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &867252464
 MonoBehaviour:
@@ -496,12 +496,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You are a young hero lost in the crypts. Avoid the one-eyed monsters and
-    collect treasures to hope leave this horrendus palce alive. Attack the mosters
-    from behinde and hide in barrels or other furniture to avoid being spotted
-
-    Good
-    luck !!'
+  m_text: "Looking for treasure, you entered The Crypt, not knowing it wasn't vacant...\nFind
+    the treasure or get out !\n\nBut beware, something is is out there. \n\nUse your
+    surroundings to hide and stay on your tippy toes.\nOr dodge, roll and fight with
+    all your might.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -528,14 +526,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29
+  m_fontSize: 31.05
   m_fontSizeBase: 29
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 2
-  m_HorizontalAlignment: 8
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

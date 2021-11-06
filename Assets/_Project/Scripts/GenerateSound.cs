@@ -1,23 +1,23 @@
 using UnityEngine;
-using UnityEngine.UI;
 using Vector3 = UnityEngine.Vector3;
 using System.Collections;
 
 public class GenerateSound : MonoBehaviour
 {
     [SerializeField] private Transform soundOrigin;
-   
-   
+    [SerializeField] private Animator anim;
+    
     private Vector3 VMax = new Vector3(7,7,7);
     private Vector3 mMax = new Vector3(1,1,1);
-    [SerializeField] private Animator anim;
-    private bool toggleSpeed = false;
     
-    public PlayerMovement playerSpeed; 
-    public float sneakCooldown = 0.5f;
+    public PlayerMovement playerSpeed;
+    
+    private bool toggleSpeed = false;
     private bool coolDown = true;
-   
-
+ 
+    public float sneakCooldown = 0.5f;
+    
+    
     void FixedUpdate()
     {
         if (coolDown)
@@ -49,31 +49,25 @@ public class GenerateSound : MonoBehaviour
     {
         StartCoroutine(CooldownCoroutine());
     }
+    
     IEnumerator CooldownCoroutine()
     {
         coolDown = false;
         yield return new WaitForSeconds(sneakCooldown);
         coolDown = true;
     }
-
+    
     private void OnTriggerEnter2D(Collider2D ennemy)
     {
-        
-        
         if (ennemy.CompareTag("Enemy"))
         {
-            Debug.Log(ennemy.gameObject.name);
-            Debug.Log("I saw you");
-            ennemy.gameObject.GetComponent<Patrol>()._fieldOfView.setTarget(transform);
-
+            ennemy.gameObject.GetComponent<Patrol>().fieldOfView.setTarget(transform);
         }
     }
 
     public void growSound(Vector3 size, Transform origin)
     {
-       
-            origin.localScale = size;
-        
+        origin.localScale = size;
     }
     
     public void reduceSound(Vector3 size, Transform origin)
