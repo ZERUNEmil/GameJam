@@ -337,7 +337,6 @@ GameObject:
   - component: {fileID: 1867833084}
   - component: {fileID: 1867833092}
   - component: {fileID: 1867833091}
-  - component: {fileID: 1867833090}
   - component: {fileID: 1867833089}
   - component: {fileID: 1867833088}
   - component: {fileID: 1867833087}
@@ -436,26 +435,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1867833090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1867833083}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22f95ac6dadc1c74a9e3caa10bf57d89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
-  checkRadius: 5
-  attackRadius: 2
-  shouldRotate: 1
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 256
-  dir: {x: 0, y: 0, z: 0}
 --- !u!50 &1867833089
 Rigidbody2D:
   serializedVersion: 4
@@ -505,12 +484,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d81f846af9b3e74898be537daad1e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  moveSpots: []
-  startWaitTile: 3
-  _fieldOfView: {fileID: 1907438379}
   exclamation: {fileID: 723055011}
   animator: {fileID: 1867833091}
+  fieldOfView: {fileID: 1907438379}
+  speed: 0
+  startWaitTile: 3
+  moveSpots: []
 --- !u!114 &1867833086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,8 +502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e26afac80f25e438ea44584d8528b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTouched: 0
-  obj: {fileID: 0}
 --- !u!114 &1867833085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,15 +562,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 424901a107bcd4e46a0a76f8156ae9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLayer: 8
   _layerMask:
     serializedVersion: 2
     m_Bits: 16768
   numberOfRays: 50
   viewDist: 6
   viewAngle: 45
-  playerLayer: 8
-  audioSource: {fileID: 0}
-  ISeeYou: {fileID: 0}
 --- !u!33 &1907438378
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -872,16 +847,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d81f846af9b3e74898be537daad1e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  exclamation: {fileID: 0}
+  animator: {fileID: 0}
+  fieldOfView: {fileID: 0}
   speed: 5
+  startWaitTile: 0
   moveSpots:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  startWaitTile: 0
-  _fieldOfView: {fileID: 0}
-  exclamation: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!61 &43364144720280731
 BoxCollider2D:
   m_ObjectHideFlags: 0

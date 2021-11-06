@@ -347,16 +347,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d81f846af9b3e74898be537daad1e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  exclamation: {fileID: 0}
+  animator: {fileID: 0}
+  fieldOfView: {fileID: 7629300303727006382}
   speed: 5
+  startWaitTile: 0
   moveSpots:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  startWaitTile: 0
-  fieldOfView: {fileID: 7629300303727006382}
-  exclamation: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!61 &7629300303593581335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -394,7 +394,6 @@ GameObject:
   - component: {fileID: 7629300303634714650}
   - component: {fileID: 7629300303634714625}
   - component: {fileID: 7629300303634714624}
-  - component: {fileID: 7629300303634714631}
   - component: {fileID: 7629300303634714630}
   - component: {fileID: 7629300303634714629}
   - component: {fileID: 7629300303634714628}
@@ -492,26 +491,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7629300303634714631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7629300303634714649}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22f95ac6dadc1c74a9e3caa10bf57d89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
-  checkRadius: 5
-  attackRadius: 2
-  shouldRotate: 1
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 256
-  dir: {x: 0, y: 0, z: 0}
 --- !u!50 &7629300303634714630
 Rigidbody2D:
   serializedVersion: 4
@@ -561,7 +540,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d81f846af9b3e74898be537daad1e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  exclamation: {fileID: 6574564823101372923}
+  animator: {fileID: 7629300303634714624}
+  fieldOfView: {fileID: 7629300303727006382}
   speed: 5
+  startWaitTile: 3
   moveSpots:
   - {fileID: 0}
   - {fileID: 0}
@@ -575,10 +558,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  startWaitTile: 3
-  fieldOfView: {fileID: 7629300303727006382}
-  exclamation: {fileID: 6574564823101372923}
-  animator: {fileID: 7629300303634714624}
 --- !u!114 &7629300303634714626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,13 +714,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 424901a107bcd4e46a0a76f8156ae9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLayer: 8
   _layerMask:
     serializedVersion: 2
     m_Bits: 16768
   numberOfRays: 50
   viewDist: 6
   viewAngle: 45
-  playerLayer: 8
 --- !u!33 &7629300303727006376
 MeshFilter:
   m_ObjectHideFlags: 0
