@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/Production/GameRules.unity
     guid: 22d8c4a4eba49f543afa0d006dcfd0a1
   - enabled: 1
+    path: Assets/_Project/Scenes/Production/chooseLevel.unity
+    guid: cdfff5885b0b523459d0ebd5a9a52f53
+  - enabled: 1
     path: Assets/_Project/Scenes/Production/Prod Scene.unity
     guid: f55b2cb4e1028984c9364797ec2f678a
   - enabled: 1
@@ -26,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/Production/GameOver.unity
     guid: 51f01af54351da44eaaf7b85f81786b7
+  - enabled: 1
+    path: Assets/_Project/Scenes/Production/HiddenScene.unity
+    guid: cc030a21ada82db49965babcea2b9537
   m_configObjects: {}

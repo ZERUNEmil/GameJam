@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndMenu : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
+
     public void MainMenu()
     {
         SceneManager.LoadScene("Menu");
@@ -13,8 +14,8 @@ public class EndMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void SecretScene()
+    public void retry()
     {
-        SceneManager.LoadScene("HiddenScene");
+        SceneManager.LoadScene("Prod Scene");
     }
 }

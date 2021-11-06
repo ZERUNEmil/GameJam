@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 577467626}
-        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
         m_MethodName: QuitApp
         m_Mode: 1
         m_Arguments:
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 577467625}
   - component: {fileID: 577467626}
   m_Layer: 5
-  m_Name: EndMenu
+  m_Name: GameOverMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 577467624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29bd315c589cee84da04bd58ec99eb83, type: 3}
+  m_Script: {fileID: 11500000, guid: a8a1ffe91f58a0f439cf5eff898574b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &613178313
@@ -936,7 +936,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 577467626}
-        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -1135,7 +1135,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 577467626}
-        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
         m_MethodName: retry
         m_Mode: 1
         m_Arguments:
