@@ -9,9 +9,10 @@ public class Patrol : MonoBehaviour
     private float waitTime;
     private int spot;
     private bool isPatrolling = true;
+    private bool isFollowing = false;
     [SerializeField] private FieldOfView _fieldOfView;
     private Vector3 view;
-
+    [SerializeField] private GameObject exclamation;
 
     [SerializeField] private Animator animator;
 
@@ -30,15 +31,25 @@ public class Patrol : MonoBehaviour
         if (isPatrolling)
         {
             Patrolling();
+            isFollowing = false;
         }
         else 
         {
             Following();
-            
+            isFollowing = true;
+
         }
         _fieldOfView.setOrigin(transform.position);
         _fieldOfView.setViewDirection(view);
-        
+
+        if (isFollowing)
+        {
+            exclamation.SetActive(true);
+        }
+        else if(!isFollowing)
+        {
+            exclamation.SetActive(false);
+        }
     }
 
     private void Following()

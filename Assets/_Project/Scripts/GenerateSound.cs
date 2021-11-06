@@ -36,6 +36,7 @@ public class GenerateSound : MonoBehaviour
        
         if (ennemy.CompareTag("Enemy"))
         {
+            Debug.Log(" I HEARD YOU BITCH ");
             ennemy.gameObject.GetComponent<FieldOfView>().setTarget(transform);
            
         }
