@@ -7,7 +7,7 @@ public class GenerateSound : MonoBehaviour
 {
     [SerializeField] private Transform soundOrigin;
    
-    private int x, y, z = 1;
+   
     private Vector3 VMax = new Vector3(7,7,7);
     private Vector3 mMax = new Vector3(1,1,1);
     [SerializeField] private Animator anim;
@@ -58,11 +58,14 @@ public class GenerateSound : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D ennemy)
     {
-       
+        
+        
         if (ennemy.CompareTag("Enemy"))
         {
-            ennemy.gameObject.GetComponent<FieldOfView>().setTarget(transform);
-           
+            Debug.Log(ennemy.gameObject.name);
+            Debug.Log("I saw you");
+            ennemy.gameObject.GetComponent<Patrol>()._fieldOfView.setTarget(transform);
+
         }
     }
 

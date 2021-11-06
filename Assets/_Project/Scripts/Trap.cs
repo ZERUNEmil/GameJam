@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
+    
     public float delayTime;
 
     private void Start()
@@ -12,7 +13,6 @@ public class Trap : MonoBehaviour
 
     private IEnumerator Go()
     {
-       
         yield return new WaitForSeconds(1f);
         
     }
