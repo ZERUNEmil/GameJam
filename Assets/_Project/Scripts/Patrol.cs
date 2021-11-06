@@ -42,8 +42,8 @@ public class Patrol : MonoBehaviour
     }
 
     private void Following()
-    {
-        
+    {   
+            
             transform.position =
                 Vector2.MoveTowards(transform.position, _fieldOfView.getTarget().position, speed * Time.deltaTime);
           /*  transform.rotation =
@@ -52,6 +52,7 @@ public class Patrol : MonoBehaviour
           var angle = Vector3.SignedAngle(Vector3.down, _fieldOfView.getTarget().position - transform.position, Vector3.back)+180;
 
               animator.SetFloat("Angle", angle);
+              
 
               view = _fieldOfView.getTarget().position - transform.position;
           
